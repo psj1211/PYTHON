@@ -1,6 +1,6 @@
 import qrcode
 
-data = "https://www.python.org"
+data = "https://gemini.google.com/app?hl=ko"
 
 qr = qrcode.QRCode(box_size=10, border=4)
 qr.add_data(data)

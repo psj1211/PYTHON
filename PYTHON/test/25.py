@@ -1,7 +1,7 @@
 #파이값구하기
 import random
 
-total_points = 10000000
+total_points = 10000
 inside_circle = 0
 
 for _ in range(total_points):
