@@ -1,6 +1,5 @@
 #등급 계산기
 def calculate_relative_grade(rank, total_students):
-    # 상위 백분율 계산
     percentile = (rank / total_students) * 100
 
     if percentile <= 4:
@@ -22,7 +21,6 @@ def calculate_relative_grade(rank, total_students):
     else:
         return 9, percentile
 
-# 사용 예시
 try:
     total = int(input("전체 학생 수를 입력하세요: "))
     rank = int(input("자신의 등수를 입력하세요: "))
