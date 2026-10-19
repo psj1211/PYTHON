@@ -68,4 +68,4 @@ def render_donut():
         print("\x1b[?25h") # Ctrl+C 누르면 커서 원복
 
 if __name__ == "__main__":
-    render_donut()
+    render_donut()#도넛 함수
