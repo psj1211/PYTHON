@@ -94,3 +94,4 @@ if __name__ == "__main__":
     output_filename = "student_report.txt"
     save_report_to_file(output_filename, results)
     print(f"\n[성공] 분석 리포트가 '{output_filename}' 파일로 저장되었습니다.")
+    print("\n>>> 프로그램 종료 <<<")
