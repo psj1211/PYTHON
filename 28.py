@@ -7,8 +7,8 @@ class FlyingPet:
     def __init__(self):
         self.root = tk.Tk()
 
-        self.speed = 5
-        self.delay = 100
+        self.speed = 100
+        self.delay = 1
 
         # 프레임 없는 투명 창 설정
         self.root.overrideredirect(True)
@@ -30,8 +30,8 @@ class FlyingPet:
 
         self.canvas = tk.Canvas(
             self.root,
-            width=self.pet_size + 20,
-            height=self.pet_size + 20,
+            width=self.pet_size + 40,
+            height=self.pet_size + 40,
             bg="white",
             highlightthickness=0,
         )
